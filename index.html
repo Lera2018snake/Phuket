@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Пхукет из Патонга — персональный гайд 2026</title>
+<style>
+:root{--bg:#f6f3ec;--card:#fff;--ink:#1d2a33;--mute:#5d6b75;--line:#e3ddd0;--sea:#0b7a8f;--sea2:#d9f1f5;--sun:#e8742c;--sun2:#fdeadb;--link:#0b6f83;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10181d;--card:#18232a;--ink:#e8eef1;--mute:#9aaab4;--line:#2b3943;--sea:#4cc3d9;--sea2:#12323a;--sun:#ff9a57;--sun2:#3a2615;--link:#6fd3e6;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10181d;--card:#18232a;--ink:#e8eef1;--mute:#9aaab4;--line:#2b3943;--sea:#4cc3d9;--sea2:#12323a;--sun:#ff9a57;--sun2:#3a2615;--link:#6fd3e6;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+.wrap{max-width:900px;margin:0 auto;padding:0 18px}
+header.hero{background:linear-gradient(135deg,#0b7a8f,#0a4d6e 60%,#e8742c 140%);color:#fff;padding:48px 0 40px}
+.hero h1{font-size:clamp(28px,6vw,46px);line-height:1.1;margin:0 0 10px}
+.hero p{margin:0;max-width:620px;opacity:.92}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chips a{background:rgba(255,255,255,.18);color:#fff;text-decoration:none;padding:7px 14px;border-radius:99px;font-size:14px;font-weight:600}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5;overflow-x:auto}
+nav .wrap{display:flex;gap:4px;padding:8px 18px;white-space:nowrap}
+nav a{text-decoration:none;color:var(--mute);padding:6px 12px;border-radius:8px;font-size:14px;font-weight:600}
+nav a:hover{background:var(--line);color:var(--ink)}
+section{padding:34px 0 6px}
+h2{font-size:26px;margin:0 0 14px}
+h3{font-size:17px;margin:20px 0 8px}
+.note{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--mute);border-radius:10px;padding:12px 14px;font-size:14px;color:var(--mute);margin:14px 0}
+.feature{border-radius:18px;padding:22px 20px;margin:10px 0 6px}
+.feature.water{background:var(--sea2);border:2px solid var(--sea)}
+.feature.club{background:var(--sun2);border:2px solid var(--sun)}
+.tag{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.08em;padding:4px 10px;border-radius:99px;color:#fff;margin-bottom:8px}
+.water .tag{background:var(--sea)}.club .tag{background:var(--sun)}
+.feature h2{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:12px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.card b{display:block;font-size:16px;margin-bottom:2px}
+.card p{margin:4px 0 8px;font-size:14px;color:var(--mute)}
+.price{display:inline-block;font-weight:700;font-size:14px;background:var(--sea2);color:var(--ink);border-radius:8px;padding:2px 8px;margin-bottom:6px}
+.club .price{background:var(--sun2);border:1px solid var(--sun)}
+.map{display:inline-block;font-size:13px;font-weight:700;text-decoration:none;border:1px solid var(--link);border-radius:8px;padding:3px 10px}
+.map:hover{background:var(--link);color:var(--bg)}
+.warn{background:#fff1ee;border:1px solid #e6674f;color:#7a2312;border-radius:10px;padding:12px 14px;margin:12px 0;font-size:15px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .warn{background:#3b1d17;color:#ffc9bd}}
+ul{padding-left:20px}li{margin:5px 0}
+.plan{counter-reset:d;list-style:none;padding:0}
+.plan li{counter-increment:d;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px 10px 54px;position:relative}
+.plan li::before{content:counter(d);position:absolute;left:12px;top:9px;width:30px;height:30px;border-radius:50%;background:var(--sea);color:#fff;display:grid;place-items:center;font-weight:800}
+footer{padding:30px 0 50px;color:var(--mute);font-size:13px}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<h1>Пхукет из Патонга: гайд 2026</h1>
+<p>Пляжи, водные развлечения, рестораны, рынки, транспорт и самостоятельная жизнь на Пхукете. Цены ориентировочные, места отмечены на Google Картах.</p>
+<div class="chips"><a href="#water">🌊 Water sport</a><a href="#club">🏖️ Beach club</a><a href="#beaches">Пляжи</a><a href="#see">Что посмотреть</a><a href="#markets">Рынки</a><a href="#food">Еда</a><a href="#solo-life">Жизнь на острове</a><a href="#relocation">Переезд</a></div>
+</div></header>
+<nav><div class="wrap"><a href="#water">Water sport</a><a href="#club">Beach club</a><a href="#beaches">Пляжи</a><a href="#see">Посмотреть</a><a href="#markets">Рынки</a><a href="#food">Еда</a><a href="#wellness">Массаж и СПА</a><a href="#shopping">Шопинг</a><a href="#activities">Активности</a><a href="#move">Транспорт</a><a href="#weather">Погода</a><a href="#solo-life">Практическое</a><a href="#plan">План</a><a href="#relocation">Переезд</a></div></nav>
+
+<main class="wrap">
+<div class="note">Доллары посчитаны по курсу около 34 ฿ за $1 и округлены. Цены в источниках расходятся, поэтому везде диапазоны: уточняйте на месте. Ссылки на карты ведут на поиск места в Google Картах.</div>
+
+<section id="water"><div class="feature water">
+<span class="tag">WATER SPORT</span>
+<h2>🌊 Водные развлечения</h2>
+<ul>
+<li><b>Патонг:</b> операторы стоят вдоль всего пляжа, особенно у конца Бангла-роуд. Тише на северном конце пляжа.</li>
+<li><b>Сезон:</b> лучше ноябрь–апрель. С мая по октябрь волны и красные флаги, джетски и парасейлинг часто не работают.</li>
+<li>Парасейлинг лучше брать ближе к закату.</li>
+</ul>
+<div class="grid">
+<div class="card"><b>Джетски, 30 мин</b><span class="price">800–1 500 ฿ · $23–44</span><p>В Патонге дороже всего. Главный риск: «повреждения» и штраф.</p></div>
+<div class="card"><b>Парасейлинг</b><span class="price">600–1 000 ฿ · $18–29</span><p>Тандем на двоих 1 000–1 400 ฿ ($29–41).</p></div>
+<div class="card"><b>Банан</b><span class="price">400–600 ฿ · $12–18</span><p>С человека, нужно минимум двое.</p></div>
+<div class="card"><b>Каяк, час</b><span class="price">150–300 ฿ · $4–9</span><p>Двухместный выходит дешевле на человека.</p></div>
+<div class="card"><b>Кабельный вейкборд</b><span class="price">500–700 ฿ · $15–21</span><p>Дневной пасс.</p></div>
+<div class="card"><b>Лодочный тур</b><span class="price">2 500–5 000 ฿ · $73–147</span><p>Парасейлинг, сноркелинг и каяк на полдня.</p></div>
+</div>
+<div class="warn"><b>Не попадитесь на джетски.</b> В Патонге известна схема: после катания обвиняют в повреждении и требуют крупную сумму. Берите у проверенных операторов, снимите технику на видео со всех сторон до выхода, не оставляйте паспорт в залог, заранее уточните страховку и что входит в цену.</div>
+<h3>Места</h3>
+<p>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=Patong+Beach+Phuket">Пляж Патонг</a>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=Somnam+Watersports+Patong+Beach">Somnam Watersports</a>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=Freedom+Beach+Phuket">Freedom Beach</a>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=Chalong+Pier+Phuket">Chalong Pier (туры Пхи-Пхи)</a>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=Kata+Beach+Phuket">Ката (серфинг)</a>
+</p>
+<p style="font-size:14px;color:var(--mute)">Ещё: каякинг в заливе Пханг Нга, Пхи-Пхи (Майя-Бэй лучше с утра), Симиланы и Сурин с ноября, сноркелинг и дайвинг.</p>
+</div></section>
+
+<section id="club"><div class="feature club">
+<span class="tag">BEACH CLUB</span>
+<h2>🏖️ Бич-клубы</h2>
+<ul>
+<li>Обычно платите не за вход, а <b>минимальным заказом (min spend)</b> на еду и напитки. У некоторых премиум-клубов есть ещё и вход: уточняйте.</li>
+<li>На закат и выходные бронируйте заранее. По будням (вт–чт) дешевле.</li>
+<li>Из Патонга ближе всего Камала и Paradise Beach, Бангтао и Сурин это 30–60 минут и пробки.</li>
+</ul>
+<div class="grid">
+<div class="card"><b>Café del Mar, Камала</b><span class="price">500–1 500 ฿ · $15–44</span><p>Бассейн, музыка, закат. Ближайший из больших клубов, в выходные дороже.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Cafe+del+Mar+Phuket+Kamala">На карте</a></div>
+<div class="card"><b>Paradise Beach</b><span class="price">300–500 ฿ · $9–15</span><p>Простой формат рядом с Патонгом, вход с напитком.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Paradise+Beach+Phuket+Patong">На карте</a></div>
+<div class="card"><b>Catch Beach Club</b><span class="price">800–2 000 ฿ · $24–59</span><p>Самый известный, хорошая еда и закаты. Будни дешевле, выходные дороже.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Catch+Beach+Club+Phuket">На карте</a></div>
+<div class="card"><b>Xana Beach Club</b><span class="price">400–1 000 ฿ · $12–29</span><p>Бассейн и спокойная атмосфера в районе Laguna, Бангтао.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Xana+Beach+Club+Phuket">На карте</a></div>
+<div class="card"><b>Bimi Beach Club</b><span class="price">по запросу</span><p>Средиземноморский стиль, столики на закат.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Bimi+Beach+Club+Phuket">На карте</a></div>
+<div class="card"><b>HideAway, Бангтао</b><span class="price">700–1 200 ฿ · $21–35</span><p>Камерный клуб, меньше туристов.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=HideAway+Beach+Club+Bang+Tao+Phuket">На карте</a></div>
+<div class="card"><b>Nikki Beach, Лайан</b><span class="price">бранч 2 500–3 500 ฿ · $73–103</span><p>Пафосный, воскресные бранчи.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Nikki+Beach+Phuket">На карте</a></div>
+<div class="card"><b>HQ Beach Lounge, Най Харн</b><span class="price">без платы за вход</span><p>Расслабленный и недорогой, заказ по меню.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=HQ+Beach+Lounge+Nai+Harn+Phuket">На карте</a></div>
+</div>
+<p style="font-size:14px;color:var(--mute)">Совет: для спокойного дня из Патонга берите Камалу или Paradise Beach, Catch и Nikki лучше планировать отдельным выездом. В источниках Catch указан и на Сурине, и на Бангтао, проверьте адрес при брони.</p>
+</div></section>
+
+<section id="beaches"><h2>Пляжи рядом</h2>
+<div class="grid">
+<div class="card"><b>Патонг</b><p>Шумно, людно, есть всё. Пляж местами грязноват.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Patong+Beach+Phuket">На карте</a></div>
+<div class="card"><b>Калим</b><p>Ближайший к Патонгу, дойти пешком от некоторых отелей.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Kalim+Beach+Phuket">На карте</a></div>
+<div class="card"><b>Камала</b><p>Спокойнее и размереннее, через холм на север.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Kamala+Beach+Phuket">На карте</a></div>
+<div class="card"><b>Карон и Ката</b><p>Чище и тише. Карон многие считают лучшим. На Ката сильные отливы.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Karon+Beach+Phuket">Карон</a> <a class="map" href="https://www.google.com/maps/search/?api=1&query=Kata+Beach+Phuket">Ката</a></div>
+<div class="card"><b>Сурин, Най Харн</b><p>Красивее и малолюднее, нужен транспорт.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Surin+Beach+Phuket">Сурин</a> <a class="map" href="https://www.google.com/maps/search/?api=1&query=Nai+Harn+Beach+Phuket">Най Харн</a></div>
+ <div class="card"><b>Банг Тао</b><p>Длинный пляж с разными по атмосфере участками, ресторанами и пляжными клубами.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Bang+Tao+Beach+Phuket">На карте</a></div>
+ <div class="card"><b>Freedom Beach</b><p>Уединённая бухта с белым песком; доступ зависит от сезона и состояния моря, часто нужен лодочный трансфер или пеший спуск.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Freedom+Beach+Phuket">На карте</a></div>
+ <div class="card"><b>Banana Beach</b><p>Небольшой живописный пляж на северо-западном побережье. Перед поездкой проверьте доступ и условия спуска.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Banana+Beach+Phuket">На карте</a></div>
+ <div class="card"><b>Ya Nui</b><p>Компактная бухта у мыса Промтеп; популярна для сноркелинга при спокойном море.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Ya+Nui+Beach+Phuket">На карте</a></div>
+ <div class="card"><b>Laem Singh</b><p>Красивый небольшой пляж между Камалой и Сурином. Уточняйте актуальный доступ к берегу.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Laem+Singh+Beach+Phuket">На карте</a></div>
+</div></section>
+
+<section id="see"><h2>Что посмотреть</h2>
+<div class="grid">
+<div class="card"><b>Бангла-роуд</b><p>Ночная жизнь Патонга.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Bangla+Road+Patong">На карте</a></div>
+<div class="card"><b>Bangla Boxing Stadium</b><p>Муай-тай, трибуна или у ринга.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Bangla+Boxing+Stadium+Patong">На карте</a></div>
+<div class="card"><b>Simon Cabaret</b><p>Кабаре-шоу.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Simon+Cabaret+Phuket">На карте</a></div>
+<div class="card"><b>Phuket FantaSea</b><p>Большое вечернее шоу, Камала.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Phuket+FantaSea">На карте</a></div>
+<div class="card"><b>Большой Будда</b><p>Смотровая с видом на остров.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Big+Buddha+Phuket">На карте</a></div>
+<div class="card"><b>Ват Чалонг</b><p>Главный храмовый комплекс.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Wat+Chalong+Phuket">На карте</a></div>
+<div class="card"><b>Мыс Промтеп</b><p>Закат.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Promthep+Cape+Phuket">На карте</a></div>
+<div class="card"><b>Смотровая Ката–Карон</b><p>Вид на три пляжа.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Karon+Viewpoint+Phuket">На карте</a></div>
+<div class="card"><b>Rang Hill</b><p>Вид на Пхукет-Таун.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Rang+Hill+Phuket">На карте</a></div>
+<div class="card"><b>Старый город</b><p>Утром или к вечеру.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Old+Phuket+Town">На карте</a></div>
+ <div class="card"><b>Windmill Viewpoint</b><p>Смотровая над пляжами Най Харн и Я Нуи; особенно красиво ближе к закату.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Windmill+Viewpoint+Phuket">На карте</a></div>
+ <div class="card"><b>Samet Nangshe</b><p>Панорамная площадка с видом на залив Пханг Нга. Это отдельная поездка за пределы острова, лучше выезжать рано утром.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Samet+Nangshe+Viewpoint">На карте</a></div>
+ <div class="card"><b>Soi Romanee и Thalang Road</b><p>Цветные шопхаусы, стрит-арт, кофейни и фотолокации Старого города.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Soi+Romanee+Phuket">На карте</a></div>
+</div></section>
+
+<section id="food"><h2>Еда</h2>
+<div class="grid">
+<div class="card"><b>Jungceylon</b><p>ТЦ в Патонге, большой выбор кухонь.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Jungceylon+Patong">На карте</a></div>
+<div class="card"><b>Central Festival</b><p>Ещё больше ресторанов.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Central+Festival+Phuket">На карте</a></div>
+<div class="card"><b>Sizzle Rooftop</b><p>Ресторан на крыше в Патонге.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Sizzle+Rooftop+Restaurant+Patong">На карте</a></div>
+<div class="card"><b>Tunk-ka Cafe</b><p>Ресторан с видом, Rang Hill.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Tunk-ka+Cafe+Phuket">На карте</a></div>
+ <div class="card"><b>Go Benz</b><p>Популярное местное место с уличной едой; удобно зайти за ужином в Пхукет-Тауне.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Go+Benz+Phuket">На карте</a></div>
+ <div class="card"><b>One Chun</b><p>Южно-тайская кухня в историческом здании Старого города.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=One+Chun+Phuket">На карте</a></div>
+ <div class="card"><b>Tu Kab Khao</b><p>Южно-тайская кухня; ресторан отмечен Michelin Bib Gourmand в упомянутых подборках.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Tu+Kab+Khao+Phuket">На карте</a></div>
+ <div class="card"><b>Raya</b><p>Известный ресторан с блюдами южно-тайской кухни.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Raya+Restaurant+Phuket">На карте</a></div>
+ <div class="card"><b>PRU</b><p>Ресторан высокой кухни; бронирование и актуальный формат обслуживания уточняйте заранее.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=PRU+Restaurant+Phuket">На карте</a></div>
+ <div class="card"><b>Tambu</b><p>Ресторан современной индийской кухни с видом и вечерней атмосферой.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Tambu+Phuket">На карте</a></div>
+ <div class="card"><b>Baan Rim Pa</b><p>Ресторан с видом на море над Патонгом; особенно эффектен на закате.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Baan+Rim+Pa+Phuket">На карте</a></div>
+</div></section>
+
+<section id="move"><h2>Транспорт из Патонга</h2>
+<ul>
+<li><b>Сонгтео</b> из Патонга ходят практически только в Пхукет-Таун, на другие пляжи нужна пересадка.</li>
+<li><b>Байк:</b> 200–300 ฿ ($6–9) в сутки. Движение левостороннее, без категории возможен штраф.</li>
+<li><b>Машина:</b> 800–1 200 ฿ ($24–35) в сутки, дешевле через брокеров (например, LocalRent).</li>
+<li><b>Такси и приложения:</b> сравнивайте Grab, Bolt, inDrive и Maxim перед заказом; цена и доступность могут различаться по времени и району. Аэропорт–отель 500–1 000 ฿ ($15–29) — ориентир из исходной подборки.</li>
+<li><b>Аренда байка:</b> не отдавайте паспорт в залог; используйте копию, фиксируйте состояние байка на фото и видео, проверяйте тормоза, шины, страховку и наличие подходящей категории прав. Депозит и условия возврата фиксируйте письменно.</li>
+<li>Весь остров с юга на север занимает около часа.</li>
+</ul>
+<p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Phuket+International+Airport">Аэропорт Пхукета</a></p>
+</section>
+
+<section id="weather"><h2>Погода и сезонность</h2>
+<ul>
+<li><b>Ноябрь–апрель:</b> обычно более сухой период, спокойнее море на западном побережье и больше возможностей для пляжного отдыха и морских экскурсий.</li>
+<li><b>Май–октябрь:</b> сезон дождей и волн; погода переменчива, возможны сильные течения и временные ограничения на водные активности.</li>
+<li><b>Сентябрь–октябрь:</b> часто один из самых дождливых периодов. Следите за предупреждениями, флагами на пляже и прогнозом перед поездками.</li>
+<li><b>Ноябрь:</b> переходный месяц — море постепенно успокаивается, но дожди ещё возможны.</li>
+<li><b>Декабрь–февраль:</b> высокий туристический сезон; жильё, экскурсии и столики в популярных местах лучше бронировать заранее.</li>
+<li>Температура обычно остаётся тропической круглый год; проверяйте прогноз на конкретные даты, а не только средние значения по месяцу.</li>
+</ul></section>
+
+<section id="plan"><h2>План на неделю</h2>
+<ol class="plan">
+<li>Патонг, пляж, закат, Бангла-роуд вечером.</li>
+<li>Парасейлинг и банан с утра у проверенного оператора.</li>
+<li>Камала: Café del Mar на закат.</li>
+<li>Ката и Карон, смотровая, Промтеп на закате.</li>
+<li>Тур на Пхи-Пхи или в Пханг Нга.</li>
+<li>Большой Будда, Ват Чалонг, Старый город.</li>
+<li>Catch Beach Club или HQ Beach Lounge, спокойный день.</li>
+</ol></section>
+
+
+
+<section id="markets"><h2>Ночные рынки и уличная еда</h2>
+<div class="grid">
+<div class="card"><b>Naka Weekend Market</b><p>Большой рынок выходного дня: уличная еда, одежда, сувениры и локальные товары. Лучше приезжать ближе к вечеру.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Naka+Weekend+Market+Phuket">На карте</a></div>
+<div class="card"><b>Chillva Market</b><p>Вечерний рынок с контейнерными лавками, едой, напитками и молодой атмосферой. Дни работы лучше проверить перед поездкой.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Chillva+Market+Phuket">На карте</a></div>
+<div class="card"><b>Lard Yai — Sunday Walking Street</b><p>Воскресный рынок на Thalang Road в Старом городе: уличная еда, музыка, ремесленные изделия и фотолокации.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Lard+Yai+Sunday+Walking+Street+Phuket">На карте</a></div>
+<div class="card"><b>Malin Plaza</b><p>Вечерний рынок в Патонге; удобно заглянуть за быстрым ужином и недорогими покупками.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Malin+Plaza+Patong">На карте</a></div>
+</div>
+<div class="note">Расписание рынков может меняться из-за сезона, погоды и праздников. Перед выездом проверьте часы работы на картах или страницах самого рынка.</div>
+</section>
+
+<section id="wellness"><h2>Массаж и СПА</h2>
+<div class="grid">
+<div class="card"><b>Nara Massage</b><span class="price">тайский массаж около 400 ฿ · oil около 550 ฿</span><p>Ориентиры цен из предоставленной подборки; уточняйте длительность сеанса, филиал и актуальный прайс.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Nara+Massage+Phuket">На карте</a></div>
+<div class="card"><b>Massage by Ked</b><p>Ещё один вариант для обычного массажа; перед визитом проверьте адрес, отзывы и актуальные цены.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Massage+by+Ked+Phuket">На карте</a></div>
+<div class="card"><b>Ориентир по ценам</b><span class="price">200–600 ฿ за час</span><p>Диапазон зависит от района, типа массажа и уровня салона. Уточняйте цену до начала процедуры.</p></div>
+</div>
+</section>
+
+<section id="shopping"><h2>Шопинг: что купить и где</h2>
+<div class="grid">
+<div class="card"><b>Central Phuket</b><p>Крупный торговый комплекс с международными и местными брендами, ресторанами и супермаркетами.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Central+Phuket">На карте</a></div>
+<div class="card"><b>Jungceylon</b><p>Главный торговый центр Патонга: магазины, кафе, фуд-корт и удобная остановка в центре района.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Jungceylon+Patong">На карте</a></div>
+<div class="card"><b>Central Patong</b><p>Торговый центр в Патонге для повседневных покупок и короткого шопинга.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Central+Patong+Phuket">На карте</a></div>
+<div class="card"><b>Porto de Phuket</b><p>Открытый торговый комплекс в районе Чернгталай: магазины, кафе и рестораны.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Porto+de+Phuket">На карте</a></div>
+</div>
+</section>
+
+<section id="activities"><h2>Активный отдых</h2>
+<div class="grid">
+<div class="card"><b>Andamanda Waterpark</b><p>Большой аквапарк с водными горками, бассейнами и искусственной волной для сёрфинга. Проверьте режим работы и тариф на выбранную дату.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Andamanda+Phuket">На карте</a></div>
+<div class="card"><b>Hanuman World</b><p>Зиплайны, подвесные мосты и активности среди тропического леса. Сверяйте ограничения по весу и погодные условия.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Hanuman+World+Phuket">На карте</a></div>
+<div class="card"><b>Сноркелинг и дайвинг</b><p>Популярные направления — острова у южного побережья, Пхи-Пхи и сезонные морские маршруты. Выбирайте оператора с инструктажем и подходящим снаряжением.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Scuba+Diving+Phuket">На карте</a></div>
+<div class="card"><b>Сёрфинг на Кате</b><p>В сезон волн на пляже Ката работают инструкторы и пункты проката. Условия зависят от погоды и уровня подготовки.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Surf+School+Kata+Beach+Phuket">На карте</a></div>
+</div>
+</section>
+
+<section id="solo-life"><h2>Практическое для самостоятельной жизни</h2>
+<h3>Коворкинги</h3>
+<div class="grid">
+<div class="card"><b>Blu Monkey Hub & Hotel</b><p>Вариант в Пхукет-Тауне; уточните условия доступа к рабочей зоне, если вы не проживаете в отеле.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Blu+Monkey+Hub+Hotel+Phuket">На карте</a></div>
+<div class="card"><b>Рабочие пространства в Пхукет-Тауне</b><p>Перед визитом уточните дневной тариф, наличие тихих мест, розеток, переговорных и стабильного Wi-Fi.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=coworking+space+Phuket+Town">Найти на карте</a></div>
+<div class="card"><b>Place Coworking</b><p>Проверьте текущий адрес, доступность рабочих мест и тарифы перед поездкой.</p><a class="map" href="https://www.google.com/maps/search/?api=1&query=Place+Coworking+Phuket">На карте</a></div>
+</div>
+<h3>Экстренные контакты</h3>
+<div class="grid">
+<div class="card"><b>Туристическая полиция</b><span class="price">1155</span><p>Помощь туристам и консультации в экстренных ситуациях.</p></div>
+<div class="card"><b>Полиция</b><span class="price">191</span><p>Экстренный вызов полиции.</p></div>
+<div class="card"><b>Скорая помощь</b><span class="price">1669</span><p>Медицинская экстренная помощь.</p></div>
+<div class="card"><b>Пожарная служба</b><span class="price">199</span><p>Сообщение о пожаре и связанных чрезвычайных ситуациях.</p></div>
+<div class="card"><b>Морская полиция</b><p>Для происшествий на воде и в прибрежной зоне уточните актуальный контакт у туристической полиции или местных служб.</p></div>
+</div>
+<h3>Полезные привычки</h3>
+<ul>
+<li>Сохраняйте адрес проживания на тайском и английском языках, а также контакт хозяина жилья.</li>
+<li>Для поездок на байке используйте шлем, подходящие права и страховку; не оставляйте паспорт в залог при аренде.</li>
+<li>На пляже обращайте внимание на красные флаги и предупреждения спасателей; не заходите в воду при опасном волнении.</li>
+<li>Держите отдельно резерв денег на медицинские расходы и непредвиденный транспорт.</li>
+</ul>
+</section>
+<section id="relocation">
+<h2>Переезд на Пхукет в 2026 году: план для одного человека</h2>
+<div class="note"><b>Обновлено: 12 ноября 2026.</b> Практический раздел для самостоятельного переезда. Визовые критерии, сроки и цены могут меняться; перед оплатой и подачей документов проверяйте условия у официального ведомства или поставщика.</div>
+<div class="feature water">
+<span class="tag">БЫСТРЫЙ ОТВЕТ</span>
+<h2>С чего начать</h2>
+<ul>
+<li><b>Определите основание для пребывания.</b> Сопоставьте цель поездки, источник дохода и планируемую деятельность с условиями подходящей визы.</li>
+<li><b>Выберите район под свой ритм жизни.</b> Учитывайте расстояние до пляжа, магазинов, спортзала, клиники и коворкинга, а также пробки и транспорт.</li>
+<li><b>Рассчитайте личный бюджет.</b> Учтите аренду, депозит, коммунальные услуги, питание, транспорт, страховку, связь, визовые расходы и резерв.</li>
+<li><b>Проверьте право на работу.</b> Долгосрочная виза сама по себе не означает разрешение на любую работу или ведение бизнеса.</li>
+</ul>
+</div>
+<h3>Варианты визового статуса</h3>
+<div class="grid">
+<div class="card"><b>DTV — Destination Thailand Visa</b><p>Может подойти удалённым работникам, фрилансерам и участникам предусмотренных программой активностей при выполнении требований. Нужны подтверждение основания и финансовых критериев. С 31 августа 2026 года для заявлений добавлены подтверждение постоянного места жительства и справка об отсутствии судимости. Точный список зависит от консульства и цели подачи.</p><a class="map" href="https://www.thaievisa.go.th/">Официальная система e-Visa</a></div>
+<div class="card"><b>Thailand Privilege</b><p>Платное членство с долгосрочным визовым статусом. Оно само по себе не даёт права работать. На официальной странице указаны ориентиры: Bronze — 650 000 ฿, Gold — 900 000 ฿, Platinum — 1 500 000 ฿, Diamond — 2 500 000 ฿, Reserve — 5 000 000 ฿ (по приглашению). Перед оплатой уточняйте доступность пакета.</p><a class="map" href="https://www.thailandprivilege.co.th/">Официальный сайт</a></div>
+<div class="card"><b>LTR — Long-Term Resident</b><p>Долгосрочная виза для отдельных категорий заявителей: состоятельных граждан мира, пенсионеров с высоким доходом, удалённых специалистов и высококвалифицированных специалистов. Требования к доходу, активам, работодателю и страховке различаются по категории.</p><a class="map" href="https://ltr.boi.go.th/">Официальный портал LTR / BOI</a></div>
+<div class="card"><b>Пенсионная категория O-A</b><p>Для заявителей от 50 лет при выполнении требований к доходу или депозиту, страховке и документам. Сверяйте условия именно для страны подачи и конкретного типа визы.</p><a class="map" href="https://www.thaievisa.go.th/">Проверить требования</a></div>
+</div>
+<div class="warn"><b>Важно:</b> требования к визам и подтверждающим документам меняются. Не оплачивайте услуги посредников, пока не сверили актуальные правила на официальном портале и в консульстве.</div>
+<h3>Практический чек-лист</h3>
+<ol class="plan">
+<li><b>Визовая стратегия — за 3–6 месяцев.</b> Выберите категорию по цели пребывания, доходу и планируемой деятельности; подготовьте подтверждающие документы.</li>
+<li><b>Жильё — за 1–2 месяца.</b> На первый период удобнее рассмотреть студию или квартиру с коротким договором, чтобы проверить район и реальные расходы. До долгосрочной аренды осмотрите жильё лично и проверьте договор, депозит, коммунальные платежи и условия досрочного выезда.</li>
+<li><b>Банковский счёт.</b> Условия для иностранцев различаются по банкам и отделениям. Заранее запросите список документов и не рассчитывайте на гарантированное открытие счёта по туристическому статусу.</li>
+<li><b>SIM-карта и приложения.</b> Рассмотрите AIS или True/dtac; установите Grab, Bolt, inDrive или Maxim, приложения доставки и необходимые банковские сервисы.</li>
+<li><b>Транспорт и права.</b> Проверьте требования к международному водительскому удостоверению и категории прав. Не управляйте байком без подходящих документов, шлема и страховки.</li>
+<li><b>Медицинская страховка.</b> Сравните покрытие амбулаторного и стационарного лечения, франшизу, исключения, эвакуацию и прямые расчёты с клиниками. Для некоторых виз страховка обязательна.</li>
+<li><b>Личные вещи.</b> До отправки багажа или груза составьте опись, проверьте таможенные правила и получите письменную смету перевозчика.</li>
+<li><b>Налоговое резидентство.</b> Пребывание в Таиланде более 180 дней в календарном году обычно делает физлицо налоговым резидентом. Последствия для иностранных доходов зависят от вида дохода, даты получения, перевода средств и применимых соглашений. До крупных переводов проконсультируйтесь с тайским налоговым специалистом.</li>
+<li><b>TM30 и отчёт 90 дней.</b> Уточните у арендодателя, кто подаёт уведомление TM30 о месте проживания. При непрерывном пребывании более 90 дней проверьте обязанность подачи TM.47.</li>
+<li><b>TDAC.</b> Перед въездом заполните бесплатную Thailand Digital Arrival Card в установленное окно до прибытия через официальный сайт.</li>
+<li><b>Повседневная инфраструктура.</b> Найдите ближайшую клинику, аптеку, супермаркет, прачечную, спортзал и коворкинг. Сохраните экстренные контакты и копии документов в защищённом месте.</li>
+</ol>
+<h3>Личный бюджет: основные статьи</h3>
+<div class="grid">
+<div class="card"><b>Аренда студии или квартиры</b><span class="price">зависит от района и сезона</span><p>Патонг удобен для активной жизни; Ката, Карон и Камала — для пляжного ритма; Чернгталай и Банг Тао — для более спокойной среды. Сравнивайте месячную ставку, депозит и коммунальные расходы.</p></div>
+<div class="card"><b>Питание</b><span class="price">личный режим расходов</span><p>Сочетайте местные кафе, рынки, фуд-корты и рестораны. Учитывайте доставку и напитки: они заметно меняют месячный итог.</p></div>
+<div class="card"><b>Транспорт</b><span class="price">по фактическим поездкам</span><p>Сравните стоимость такси с арендой байка или автомобиля, включая топливо, парковку, страховку и экипировку.</p></div>
+<div class="card"><b>Страховка и визовые расходы</b><span class="price">индивидуальный расчёт</span><p>Зависят от возраста, покрытия, визовой категории, страны подачи и срока пребывания.</p></div>
+</div>
+<h3>Налоги и обязательные уведомления</h3>
+<ul>
+<li><b>Налоговый резидент:</b> более 180 дней пребывания в календарном году; иностранные доходы требуют отдельного анализа.</li>
+<li><b>TM30:</b> уведомление о месте проживания иностранца; запросите подтверждение у арендодателя.</li>
+<li><b>90-day report (TM.47):</b> уведомление при непрерывном пребывании свыше 90 дней.</li>
+<li><b>TDAC:</b> цифровая карта прибытия, заполняется бесплатно на официальном сайте.</li>
+</ul>
+<div class="warn"><b>Не путайте правила:</b> TM30 — уведомление о месте проживания, TM.47 — отчёт о длительном непрерывном пребывании, TDAC — цифровая карта прибытия. Они не заменяют визу или разрешение на работу.</div>
+<h3>Официальные источники</h3>
+<ul>
+<li><a href="https://moscow.thaiembassy.org/en/publicservice/adjustment-to-supporting-documents-for-destination-thailand-visa-dtv-a?cate=5d843b6a15e39c1abc005152" target="_blank" rel="noopener">Посольство Таиланда: документы для DTV</a>.</li>
+<li><a href="https://www.thaievisa.go.th/" target="_blank" rel="noopener">Thailand e-Visa</a>.</li>
+<li><a href="https://www.thailandprivilege.co.th/" target="_blank" rel="noopener">Thailand Privilege</a>.</li>
+<li><a href="https://ltr.boi.go.th/" target="_blank" rel="noopener">LTR Visa — Board of Investment</a>.</li>
+<li><a href="https://www.rd.go.th/english/6045.html" target="_blank" rel="noopener">Revenue Department — налоги</a>.</li>
+<li><a href="https://tdac.immigration.go.th/arrival-card/" target="_blank" rel="noopener">Thailand Digital Arrival Card</a>.</li>
+</ul>
+</section>
+
+</main>
+<footer><div class="wrap">Туристическая часть: обзоры пляжей и водных развлечений Пхукета; цены ориентировочные. Практический раздел о самостоятельной жизни и переезде обновлён 12 ноября 2026 года; официальные ссылки и примечания приведены внутри раздела. Проверяйте визовые и налоговые условия перед оплатой и подачей документов.</div></footer>
+</body>
+</html>
